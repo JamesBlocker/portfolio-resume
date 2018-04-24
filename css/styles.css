@@ -74,7 +74,13 @@ html, body {
   .right {
       float: right;
   }
-
   
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
   
+  body, html, .main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
