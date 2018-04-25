@@ -52,7 +52,7 @@ p {
 margin: 15px 0;
 }
 
-.ParallaxContainer {
+.ParallaxContainer1 {
 display: flex;
 flex: 1 0 auto;
 position: relative;
@@ -64,6 +64,19 @@ transform: translateZ(-1px) scale(2);
 background: url("../img/los_angeles.jpg");
 background-color: rgb(250,228, 216);
 }
+
+.ParallaxContainer2 {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+    background: url("../img/santa-monica.jpg");
+    background-color: rgb(250,228, 216);
+    }
 
 /* .right {
     float: right;
