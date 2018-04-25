@@ -2,83 +2,77 @@ html, body {
     font-family: Open Sans;
     font-size: 18px;
     line-height: 28px;
-  }
+}
+
+
+
   
-  h1 {
-    letter-spacing: -15px;
-    font-family: Open Sans;
-    color: white;
+h1 {
+letter-spacing: -15px;
+font-family: Open Sans;
+color: white;
+text-align: center;
+font-size: 200px;
+font-weight: 800;
+line-height: 200px;
+}
+
+h2 {
+font-size: 60px;
+text-align: center;
+}
+
+h3 {
+    font-size: 30px;
     text-align: center;
-    font-size: 200px;
-    font-weight: 800;
-    line-height: 200px;
-  }
+}
 
-  h2 {
-    font-size: 60px;
-    text-align: center;
-  }
+.MainContainer {
+perspective: 1px;
+transform-style: preserve-3d;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: scroll;
+}
 
-  h3 {
-      font-size: 30px;
-      text-align: center;
-  }
-  
-  .MainContainer {
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-  
-  .ContentContainer {
-    position: relative;
-    display: block;
-    background-color: white;
-    z-index: 1;
-  }
-  
-  .Content {
-    /* max-width: 750px; */
-    margin: 0 auto;
-    padding: 15px 0;
-  }
-  
-  p {
-    margin: 15px 0;
-  }
-  
-  .ParallaxContainer {
-    display: flex;
-    flex: 1 0 auto;
-    position: relative;
-    z-index: -1;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    transform: translateZ(-1px) scale(2);
-    background: url("../img/los_angeles.jpg");
-    background-color: rgb(250,228, 216);
-  }
+.ContentContainer {
+position: relative;
+display: block;
+background-color: whitesmoke;
+z-index: 1;
+}
 
-  .footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 60px;
-      line-height: 60px;
-      background-color: #f5f5f5;
-  }
+.Content {
+/* max-width: 750px; */
+margin: 0 auto;
+padding: 15px 0;
+}
 
-  /* .right {
-      float: right;
-  } */
-  
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
-  
-  body, html, .main {
-    height: 100%;
+p {
+margin: 15px 0;
+}
+
+.ParallaxContainer {
+display: flex;
+flex: 1 0 auto;
+position: relative;
+z-index: -1;
+height: 100vh;
+justify-content: center;
+align-items: center;
+transform: translateZ(-1px) scale(2);
+background: url("../img/los_angeles.jpg");
+background-color: rgb(250,228, 216);
+}
+
+/* .right {
+    float: right;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+body, html, .main {
+height: 100%;
 }
 
 section {
@@ -91,6 +85,15 @@ section {
     padding: 0;
     display: flex;
     justify-content: space-around;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
 }
 
 #about img {
@@ -107,9 +110,16 @@ section {
     margin-bottom: 70px;
 }
 
-#etch img {
+.projects img {
     width: 350px;
 }
+
+.projects ul {
+    list-style: none;
+    margin: 0 auto;
+    display: block;
+}
+
 
 /* .main {
     padding: 0 50px;
