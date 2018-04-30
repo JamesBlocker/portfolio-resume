@@ -3,7 +3,7 @@ html, body {
     font-size: 18px;
     line-height: 28px;
 }
-  
+
 h2, h3, h4, a {
     font-family: 'Roboto', sans-serif;
 }
@@ -15,11 +15,17 @@ p {
 h1 {
 letter-spacing: -15px;
 font-family: Open Sans;
-color: white;
+color: rgb(232,114,12,0.9);
 text-align: center;
 font-size: 200px;
 font-weight: 800;
 line-height: 200px;
+text-shadow: 2px 2px rgba(232,133,12,0.3);
+}
+
+.title2 {
+    color: #E80C6A;
+    text-shadow: 3px 3px rgba(119,33,70,0.6);
 }
 
 h2 {
@@ -74,7 +80,9 @@ height: 100vh;
 justify-content: center;
 align-items: center;
 transform: translateZ(-1px) scale(2);
-background: url("../img/los_angeles.jpg");
+background: url("../img/la_fade.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 background-color: rgb(250,228, 216);
 }
 
@@ -87,7 +95,7 @@ background-color: rgb(250,228, 216);
     justify-content: center;
     align-items: center;
     transform: translateZ(-1px) scale(2);
-    background: url("../img/los-angeles_2.jpg");
+    background: url("../img/la_purple.jpg");
     background-color: rgb(250,228, 216);
     }
 
@@ -122,7 +130,7 @@ section {
     height: 250px;
     border-radius: 70%;
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-bottom: 20px;
 }
 
@@ -130,7 +138,12 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 100px;
-    background-color: rgba(230, 198, 67, 0.5)
+    /* background-color: rgba(230, 198, 67, 0.5) */
+    background-color: rgba(232,114,12,0.8)
+}
+
+.orange {
+    color: rgba(232,114,12,01)
 }
 
 .projects img {
@@ -145,29 +158,29 @@ section {
 
 .main {
 background-color: whitesmoke;
-    
+
 }
 
 /* Slides */
 * {
     box-sizing: border-box;
-  }
-  
-  .container {
+ }
+
+ .container {
     position: relative;
-  }
-  
-  .mySlides {
+ }
+
+ .mySlides {
     display: none;
-    
-  }
-  
-  .cursor {
+
+ }
+
+ .cursor {
     cursor: pointer;
-  }
-  
-  .prev,
-  .next {
+ }
+
+ .prev,
+ .next {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -180,60 +193,60 @@ background-color: whitesmoke;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-  }
-  
-  .next {
+ }
+
+ .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover,
-  .next:hover {
+ }
+
+ .prev:hover,
+ .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  .numbertext {
+ }
+
+ .numbertext {
     color: black;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  .caption-container {
+ }
+
+ .caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
-  }
-  
-  .row:after {
+ }
+
+ .row:after {
     content: "";
     display: table;
-    clear: both;
-  }
-  
-  .column {
+    clear: both
+ }
+
+ .column {
     float: left;
     width: 16.66%;
-  }
-  
-  .demo {
+ }
+
+ .demo {
     opacity: 0.6;
     height:200px;
     width: auto;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
+ }
 
-  .mySlides img {
+ .active,
+ .demo:hover {
+    opacity: 1;
+ }
+
+ .mySlides img {
       height: 450px;
       margin-left: 380px;
-  }
+ }
 
-  .center {
+ .center {
       text-align: center;
-  }
+ }
