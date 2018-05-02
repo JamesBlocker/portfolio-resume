@@ -19,7 +19,7 @@ p {
 h1 {
 letter-spacing: -15px;
 font-family: Open Sans;
-color: rgb(232,114,12,0.9);
+color: rgb(232,114,12,1);
 text-align: center;
 font-size: 200px;
 font-weight: 800;
@@ -136,6 +136,10 @@ section {
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;
+}
+
+#wrapup {
+    background-color: darkgray;
 }
 
 .jumbotron {
